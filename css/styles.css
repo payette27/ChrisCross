@@ -1,0 +1,69 @@
+body {
+    background-color: #e06a09;
+    color: #000000;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+}
+h1 {
+    color: #2151d6;
+    font-size: 40px;
+    line-height: 1.5;
+    font-style: bold;
+    text-align: center;
+  }
+
+  h2 {
+    color: #2151d6;
+    font-size: 40px;
+    line-height: 1.5;
+    font-style: bold;
+    text-align: center;
+  }
+
+  h3 {
+    color: #2151d6;
+    font-size: 40px;
+    line-height: 1.5;
+    font-style: bold;
+    text-align: center;
+  }
+  
+  p {
+    color: #d5d5d5;
+    font-size: 16px;
+    line-height: 2.0;
+    text-align: center;
+  }
+  
+
+a:visited {
+    /* visited link*/
+    color: #000000;
+}
+
+a:hover,
+a:focus {
+    /* No underline when hovering over a link */
+    color: #4e7ad8
+}
+
+  
+a:active {
+    /* selected link*/
+    color: #26da5c;
+}
+
+.navigation-list__item--active {
+    text-decoration: none;
+    font-size: large;
+  }
+
+  .navigation-list {
+    list-style-type: none;
+  }
+
+  .navigation-list li {
+    display: inline-block;
+    margin-left: 15px;
+  }
