@@ -9,32 +9,34 @@
     <link rel="shortcut icon" href="./images/favicon.png">
 </head>
 <body>
-    <nav>
         <!-- Header including the logo and the main navigation -->
         <header class="page-header">
-            <img src="/images/placeholderlogo.svg" alt="logo" class="page-header__item">
-
-            <nav class="main-navigation page-header__item">
-                <ul role="menubar" class="navigation-list">
-                    <li role="presentation">
-                        <a href="index.html" role="menuitem"
-                            class="navigation-list__item navigation-list__item--active">Home</a>
-                    </li>
-                    <li role="presentation">
-                        <a href="about.html" role="menuitem" class="navigation-list__item--active">About Us</a>
-                    </li>
-                    <li role="presentation">
-                        <a href="faq.html" role="menuitem"
-                            class="navigation-list__item navigation-list__item--active">FAQ</a>
-                    </li>
-
-
-
-                </ul>
+            <nav class="main-navigation">
+                <div id="holding-div">
+                    <div class="nav-div" id="logo-div">
+                        <a href="index.html"><img src="images/mcdonald.png" alt="logo" width="50px" height="50px"></a>
+                    </div>
+                    <div class="nav-div" id="menu-div">         
+                        <ul class="nav-list">
+                            <li>
+                                <a href="index.html" class="nav-list-link">Home</a>
+                            </li>
+                            <li>
+                                <a href="about.html" class="nav-list-link">About Us</a>
+                            </li>
+                            <li>
+                                <a href="index.html" class="nav-list-link">Browse Real Estate</a>
+                            </li>
+    
+                            <li>
+                                <a href="faq.html" class="nav-list-link current">FAQ</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </nav>
             <hr>
         </header>
-    </nav>
     <script src="js/tota11y.min.js"></script>
 </body>
 </html>
